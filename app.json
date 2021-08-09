@@ -1,0 +1,56 @@
+{
+      "name": "Amanda",
+      "description": "An Anime themed Telegram group management bot.",
+      "logo": "https://telegra.ph/file/04d73369440abc48ab3ce.png",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "Amanda"
+      ],   
+	  
+	    ],      
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },    
+	      },      
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "1202064253"
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username without the @",
+         "value": "TharukRenuja"
+      },
+      "SUPPORT_CHAT": {
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to trtechguide support than consider you made an enemy.",
+         "required": true,
+         "value": "SLBotsofficial"
+      },
+	  
+      },
+      "WEBHOOK": {
+         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
+         "required": false,
+         "value": ""
+      },
+	  
+	  
+		
+		 
+	
