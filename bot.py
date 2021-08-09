@@ -5,9 +5,6 @@ import aiofiles
 import aiohttp
 from random import randint
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from google_trans_new import google_translator
-
-translator = google_translator()
 
 BOT_TOKEN = Config.BOT_TOKEN
 BOT_ID = Config.BOT_ID
