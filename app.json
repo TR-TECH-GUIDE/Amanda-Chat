@@ -9,18 +9,20 @@
          "manager",
          "Amanda"
       ],   
-	  
-	    ],      
+   "repository": "https://github.com/TR-TECH-GUIDE/Amanda",
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": 
+	      
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
+      },
+	      
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
